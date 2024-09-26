@@ -75,3 +75,10 @@ function teachClass(todayClass: Subjects): string {
         return "Teaching History";
     }
 }
+
+process.stdout.write(teachClass('Math') + '\n');
+process.stdout.write(teachClass('History') + '\n');
+
+executeWork(createEmployee(200));
+executeWork(createEmployee(1000));
+
